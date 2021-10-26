@@ -262,8 +262,35 @@ textarea {
 
 
 .footer{
-    position: fixed;
+    left: 0;
+    position: relative;
     bottom: 0;
     background: rgb(230, 230, 230);
+    height: 35px;
+}
 
+.strong{
+    font-weight: bold;
+}
+
+#courses, #movies, #fun-facts{
+  padding: 5px 10px;
+  background: rgb(236, 236, 236);
+  margin-bottom: 20px;
+}
+
+#moods{
+  margin-bottom: 20px;
+}
+#moods img{
+  width: 80px;
+}
+
+
+.image-row {
+  display: flex;
+}
+
+.image-col {
+  padding: 5px;
 }
