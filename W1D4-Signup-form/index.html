@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up form</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+  <form action="http://mumstudents.org/params.php" method="post" class="form-inline">
+    <fieldset>
+      <legend>New User Signup:</legend>
+      <div class="form-control">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div class="form-control">
+        <label for="gender">Gender:</label>
+        <input type="radio"  name="gender" value="male" checked> <span>Male</span>
+        <input type="radio"  name="gender" value="female"> <span>Female</span>
+      </div>
+      
+      <div class="form-control">
+        <label for="age">Age:</label>
+        <input type="text" class="sm" id="age" name="age">
+      </div>
+
+      <div class="form-control">
+        <label for="personality">Personality type:</label>
+        <input type="text" class="sm" id="personality" name="personality"> <strong>(<span class="color-pink">Don't know your type?</span>)</strong>
+      </div>
+
+      <div class="form-control">
+        <label for="fav_os">Favorite OS:</label>
+        <select name="fav_os" id="fav_os">
+          <option value="Windows">Windows</option>
+          <option value="Linux">Linux</option>
+          <option value="MacOS">MacOS</option>
+        </select>
+      </div>
+
+      <div class="form-control">
+        <label for="seeking_age">Seeking Age:</label>
+        <input type="text" id="seeking_age" class="sm" name="seeking_age_from" placeholder="Min"> to <input type="text" class="sm" id="seeking_age_to" placeholder="Max" name="seeking_age_to">
+      </div>
+      <div class="form-control">
+        <input type="submit" class="submit" value="Sign Up">
+      </div>
+      
+    </fieldset>
+  </form>
+
+</div>
+  
+</body>
+
+</html>
