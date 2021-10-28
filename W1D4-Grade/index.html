@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Retrieve Grade</title>
+</head>
+
+<body>
+    
+
+    <div class="container">
+
+    
+
+    <h1>Retrieve your grade</h1>
+
+
+    <form action="http://mumstudents.org/params.php" method="post">
+
+        <div class="form-elm">
+
+            <label>Student Name:</label>
+            <input type="text" name="student_name">
+
+        </div>
+
+        <div class="form-elm">
+
+            <label>Student ID:</label>
+            <input type="text" name="student_id">
+
+        </div>
+
+        <div class="form-elm">
+
+            <label>Assignment:</label>
+            <select name="assignment" id="assignment">
+                <option value="Homework 1">Homework 1</option>
+                <option value="Homework 2">Homework 2</option>
+                <option value="Homework 3" selected>Homework 3</option>
+                <option value="Homework 4">Homework 4</option>
+                <option value="Lab 1">Lab 1</option>
+                <option value="Lab 2">Lab 2</option>
+                <option value="Lab 3">Lab 3</option>
+                <option value="Lab 4">Lab 4</option>
+            </select>
+
+        </div>
+
+        <div class="form-elm">
+            <label>Student Entry:</label>
+            <input type="radio" class="form-check-input " name="student_entry" value="May 2021" checked> May 2021
+            <input type="radio" class="form-check-input " name="student_entry" value="Aug 2021"> Aug 2021
+        
+        </div>
+
+        <div class="form-elm">
+            <input type="checkbox" name="confirm" value="confirmed">
+            <label>Confirm</label>
+        </div>
+
+        <div class="form-elm">
+            <input type="submit" value="Submit" class="btn">
+        </div>
+
+        
+
+    </form>
+
+</div>
+
+
+</body>
+
+</html>
