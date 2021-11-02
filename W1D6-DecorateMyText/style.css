@@ -16,11 +16,13 @@ h1 {
 	font-weight: normal;
 	font-style: italic;
 	font-family: "Impact", fantasy;
+	color: rgb(45, 109, 36);
 }
 
 legend {
 	font-family: "Impact", fantasy;
 	font-size: 120%;
+	color: rgb(45, 109, 36);
 }
 
 textarea {
