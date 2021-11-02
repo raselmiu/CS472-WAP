@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<title>Decorate My Text</title>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<script src="dmt.js"></script>
+
+</head>
+
+<body>
+	<h1>Text Decorator</h1>
+
+	<div>
+		<img src="decorated.gif" alt="very decorated!" />
+	</div>
+
+	<fieldset>
+		<legend>Text</legend>
+		<textarea rows="4" cols="30" id="inputTextArea"></textarea>
+	</fieldset>
+
+
+	<fieldset>
+		<legend>Decoration</legend>
+		<button onclick="setTimerForBiggerText()">Bigger Decorations!</button>
+		<br>
+		<br>
+		<button onclick="kovitchFunction()">Malkovitch</button>
+		<br>
+		<br>
+		<label><input type="checkbox" id="bling" onchange="blingCheckbox(this);">Bling</label>
+	</fieldset>
+</body>
+
+</html>
