@@ -250,7 +250,7 @@ textarea {
 
 .header{
     background-color: rgb(230, 230, 230);
-    width: 100%;
+    
     padding: 10px 20px;
 
 }
@@ -262,6 +262,7 @@ textarea {
 
 
 .footer{
+  text-align: center;
     left: 0;
     position: relative;
     bottom: 0;
@@ -282,10 +283,14 @@ textarea {
 #moods{
   margin-bottom: 20px;
 }
+
 #moods img{
   width: 80px;
 }
 
+.header{
+text-align: center;
+}
 
 .image-row {
   display: flex;
@@ -293,4 +298,33 @@ textarea {
 
 .image-col {
   padding: 5px;
+}
+
+.profile{
+  background: rgb(223, 223, 223);
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 10px;
+}
+
+.header img {
+  border-radius: 10%;
+}
+
+.links li{
+  background-color: rgb(236, 236, 236);
+  
+}
+
+.links{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.links li a{
+  margin-bottom: 1px;
+  padding: 3px;
+  padding-left: 20px;
+  display: block;
+  cursor: pointer;
 }
